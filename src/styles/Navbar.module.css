@@ -8,6 +8,16 @@
     color: white; /* Navbar text color */
     font-family: 'Arial', sans-serif;
   }
+
+  .navbar-link {
+    text-decoration: none;  /* Remove underline */
+    color: inherit;  /* Inherit the text color from the parent */
+    display: flex;  /* Make the link behave like a flex item */
+    align-items: center;  /* Align text and logo vertically */
+    justify-content: center;  /* Align text and logo horizontally */
+    padding: 0;  /* Remove any default padding from the link */
+    cursor: pointer;  /* Make it visually clickable */
+  }
   
   .navbar-left {
     display: flex;
@@ -20,12 +30,12 @@
   }
   
   .navbar-text {
-    font-size: 20px; /* Adjust text size */
+    font-size: 2rem; /* Adjust text size */
     font-weight: bold;
   }
 
   .hiveText {
-    font-size: 20px; /* Adjust text size */
+    font-size: 2rem; /* Adjust text size */
     font-weight: bold;
     color: #ffcc00;
   }

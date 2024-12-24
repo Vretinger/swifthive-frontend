@@ -1,7 +1,7 @@
 .heroSection {
   position: relative;
   height: 50vh;
-  background: linear-gradient(135deg, #122d2f, #abb9a4);
+  background: linear-gradient(90deg, #122d2f, #abb9a4);
   display: flex;
   justify-content: flex-start; /* Aligns text to the left */
   align-items: center; /* Aligns text to the top */

@@ -1,0 +1,84 @@
+/* Login page container */
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Login form box */
+  .loginBox {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Heading */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input container */
+  .inputContainer {
+    margin-bottom: 15px;
+  }
+  
+  /* Labels */
+  label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Inputs */
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  /* Focused input style */
+  input:focus {
+    border-color: #007bff;
+  }
+  
+  /* Submit button */
+  .loginButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  .loginButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Sign up link */
+  .signupLink {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .signupLink a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signupLink a:hover {
+    text-decoration: underline;
+  }
+  
