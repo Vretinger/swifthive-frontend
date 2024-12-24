@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background: linear-gradient(90deg, #122d2f, #abb9a4);
   }
   
   /* Login form box */

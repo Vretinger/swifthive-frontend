@@ -6,6 +6,7 @@ import "./api/axiosDefaults";
 import SignUpForm from "./pages/auth/SignUpForm";
 import SignInForm from "./pages/auth/SignInForm";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="*" element={<p>Page not found!</p>} />
         </Routes>
       </Container>
+      <Footer />
     </div>
   );
 }

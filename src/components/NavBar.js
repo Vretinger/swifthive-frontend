@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import styles from '../styles/Navbar.module.css'; // Use the styles object
+import { Link } from 'react-router-dom';
+import styles from '../styles/Navbar.module.css';
 import logo from '../assets/images/HiveLogo.png';
 
 const Navbar = () => {
@@ -14,7 +14,9 @@ const Navbar = () => {
         </Link>
       </div>
       <div className={styles['navbar-right']}>
-        <button className={styles['navbar-button']}>Home</button>
+        <Link to="/" className={`${styles['navbar-button']}`}>
+          Home
+        </Link>
         <button className={styles['navbar-button']}>Explore</button>
         <button className={styles['navbar-button']}>Pricing</button>
         <Link to="/signin" className={`${styles['navbar-button']} ${styles['login-button']}`}>

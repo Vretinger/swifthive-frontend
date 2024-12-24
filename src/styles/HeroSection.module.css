@@ -7,6 +7,7 @@
   align-items: center; /* Aligns text to the top */
   padding: 0 80px; /* Adjusted padding for more space on the left */
   width: 100%;
+  font-family: 'Arial', sans-serif;
 }
 
 .heroContent {
@@ -40,12 +41,16 @@
   bottom: 0;
   right: 0;
   height: 80%; /* Set the image height to 80% of the hero section */
-  max-height: 40vh; /* Optional: Prevent it from exceeding 40vh (80% of 50vh) */
+  max-height: 40vh;
   object-fit: contain; /* Ensure proper scaling */
   z-index: 1; /* Place the image behind the text */
 }
 
 .signup-button {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #122d2f;
   margin-top: 20px;
   font-size: 1.5rem;
   background-color: #ffcc00;
