@@ -1,14 +1,23 @@
 import React from 'react';
+import styles from '../styles/Navbar.module.css'; // Use the styles object
+import logo from '../assets/images/HiveLogo.png';
 
 const Navbar = () => {
   return (
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/freelancer-profile">Freelancer Profile</a></li>
-        <li><a href="/client-dashboard">Client Dashboard</a></li>
-        <li><a href="/signin">Login</a></li>
-      </ul>
+    <nav className={styles.navbar}>
+      <div className={styles['navbar-left']}>
+        <img src={logo} alt="Logo" className={styles['navbar-logo']} />
+        <span className={styles['navbar-text']}>Swift</span><span className={styles.hiveText}>Hive</span>
+        
+      </div>
+      <div className={styles['navbar-right']}>
+        <button className={styles['navbar-button']}>Home</button>
+        <button className={styles['navbar-button']}>Explore</button>
+        <button className={styles['navbar-button']}>Pricing</button>
+        <button className={`${styles['navbar-button']} ${styles['login-button']}`}>
+          Log in
+        </button>
+      </div>
     </nav>
   );
 };
